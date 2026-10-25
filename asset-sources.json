@@ -1,0 +1,1388 @@
+[
+  {
+    "source": "4-ParetoGS\\figures\\intro\\output\\paretogs_method_overview.svg",
+    "asset": "4-ParetoGS\\web\\assets\\method-overview.svg"
+  },
+  {
+    "source": "ParetoGS-main.pdf (current release manuscript)",
+    "asset": "assets/paper.pdf",
+    "sha256": "14b64be797a70a1f7c682a204f74313dabba1e0be91b6d5b052f63296589318f",
+    "scope": "Current release manuscript; authors match the project page."
+  },
+  {
+    "source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_3000000/renders/00001.png",
+    "asset": "assets/cover/garden-view1-full-full.jpg",
+    "dimensions": [
+      649,
+      420
+    ],
+    "original_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": {
+      "format": "JPEG",
+      "quality": 95,
+      "chroma_subsampling": "4:4:4",
+      "progressive": true,
+      "resize": "half width and height, rounded"
+    },
+    "scene": "garden",
+    "view_index": 1,
+    "psnr": 24.813329696655273,
+    "psnr_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_3000000/per_view.json",
+    "psnr_key": "00001.png",
+    "psnr_scope": "original-resolution single view; not measured from the JPEG"
+  },
+  {
+    "source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/materials/flexgs_imp/garden/test/ours_35000/budgets/ratio_0.05/renders/00001.png",
+    "asset": "assets/cover/garden-view1-flex-5.jpg",
+    "dimensions": [
+      649,
+      420
+    ],
+    "original_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": {
+      "format": "JPEG",
+      "quality": 95,
+      "chroma_subsampling": "4:4:4",
+      "progressive": true,
+      "resize": "half width and height, rounded"
+    },
+    "scene": "garden",
+    "view_index": 1,
+    "psnr": 19.95804214477539,
+    "psnr_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/materials/flexgs_imp/garden/test/ours_35000/budgets/ratio_0.05/per_view.json",
+    "psnr_key": "DSC07964",
+    "psnr_scope": "original-resolution single view; not measured from the JPEG",
+    "training_time_minutes": 123.04372986608215,
+    "training_time_source": "/3dgs_cuda_workspace/0_Reproduction_Space/FlexGS/output/experiments/0001_improvedgs_fine/runs/garden/training_parameters.json",
+    "training_time_scope": "recorded total training including shared Full; stage I/O conventions retained",
+    "budget_switch_latency": {
+      "experiment_id": "0008",
+      "source": "output/experiments/0008_budget_switch_predecoded/scene_summary.csv",
+      "method": "FlexGS-imp",
+      "scene": "garden",
+      "view": "DSC07956",
+      "statistic": "median",
+      "milliseconds": 38.33310795016587,
+      "samples": 108,
+      "hardware": "NVIDIA GeForce RTX 4090",
+      "scope": "CUDA-synchronized parameter preparation after budget request; resident models, all ParetoGS anchors predecoded on GPU; excludes loading, predecode and rendering; camera DSC07956, separate from the cover view DSC07964"
+    }
+  },
+  {
+    "source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/materials/flexgs_imp/garden/test/ours_35000/budgets/ratio_0.01/renders/00001.png",
+    "asset": "assets/cover/garden-view1-flex-1.jpg",
+    "dimensions": [
+      649,
+      420
+    ],
+    "original_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": {
+      "format": "JPEG",
+      "quality": 95,
+      "chroma_subsampling": "4:4:4",
+      "progressive": true,
+      "resize": "half width and height, rounded"
+    },
+    "scene": "garden",
+    "view_index": 1,
+    "psnr": 18.632986068725586,
+    "psnr_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/materials/flexgs_imp/garden/test/ours_35000/budgets/ratio_0.01/per_view.json",
+    "psnr_key": "DSC07964",
+    "psnr_scope": "original-resolution single view; not measured from the JPEG"
+  },
+  {
+    "source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/materials/flexgs_imp/garden/test/ours_35000/budgets/ratio_0.001/renders/00001.png",
+    "asset": "assets/cover/garden-view1-flex-0p1.jpg",
+    "dimensions": [
+      649,
+      420
+    ],
+    "original_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": {
+      "format": "JPEG",
+      "quality": 95,
+      "chroma_subsampling": "4:4:4",
+      "progressive": true,
+      "resize": "half width and height, rounded"
+    },
+    "scene": "garden",
+    "view_index": 1,
+    "psnr": 12.898153305053711,
+    "psnr_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/materials/flexgs_imp/garden/test/ours_35000/budgets/ratio_0.001/per_view.json",
+    "psnr_key": "DSC07964",
+    "psnr_scope": "original-resolution single view; not measured from the JPEG"
+  },
+  {
+    "source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_150000/renders/00001.png",
+    "asset": "assets/cover/garden-view1-ours-5.jpg",
+    "dimensions": [
+      649,
+      420
+    ],
+    "original_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": {
+      "format": "JPEG",
+      "quality": 95,
+      "chroma_subsampling": "4:4:4",
+      "progressive": true,
+      "resize": "half width and height, rounded"
+    },
+    "scene": "garden",
+    "view_index": 1,
+    "psnr": 23.59296417236328,
+    "psnr_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_150000/per_view.json",
+    "psnr_key": "00001.png",
+    "psnr_scope": "original-resolution single view; not measured from the JPEG",
+    "training_time_minutes": 13.534839176266784,
+    "training_time_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/garden/training_summary.json",
+    "training_time_scope": "recorded total training including shared Full; stage I/O conventions retained",
+    "budget_switch_latency": {
+      "experiment_id": "0008",
+      "source": "output/experiments/0008_budget_switch_predecoded/scene_summary.csv",
+      "method": "ParetoGS (all anchors resident)",
+      "scene": "garden",
+      "view": "DSC07956.JPG",
+      "statistic": "median",
+      "milliseconds": 0.47278200509026647,
+      "samples": 108,
+      "hardware": "NVIDIA GeForce RTX 4090",
+      "scope": "CUDA-synchronized parameter preparation after budget request; resident models, all ParetoGS anchors predecoded on GPU; excludes loading, predecode and rendering; camera DSC07956, separate from the cover view DSC07964"
+    }
+  },
+  {
+    "source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_30000/renders/00001.png",
+    "asset": "assets/cover/garden-view1-ours-1.jpg",
+    "dimensions": [
+      649,
+      420
+    ],
+    "original_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": {
+      "format": "JPEG",
+      "quality": 95,
+      "chroma_subsampling": "4:4:4",
+      "progressive": true,
+      "resize": "half width and height, rounded"
+    },
+    "scene": "garden",
+    "view_index": 1,
+    "psnr": 21.81731414794922,
+    "psnr_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_30000/per_view.json",
+    "psnr_key": "00001.png",
+    "psnr_scope": "original-resolution single view; not measured from the JPEG"
+  },
+  {
+    "source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_3000/renders/00001.png",
+    "asset": "assets/cover/garden-view1-ours-0p1.jpg",
+    "dimensions": [
+      649,
+      420
+    ],
+    "original_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": {
+      "format": "JPEG",
+      "quality": 95,
+      "chroma_subsampling": "4:4:4",
+      "progressive": true,
+      "resize": "half width and height, rounded"
+    },
+    "scene": "garden",
+    "view_index": 1,
+    "psnr": 20.033884048461914,
+    "psnr_source": "/3dgs_cuda_workspace/1_dev/ICLR_ParetoGS/output/ICLR-27-Submitted/0001_main_table/evaluation/main_points/paretogs/garden/test/budget_3000/per_view.json",
+    "psnr_key": "00001.png",
+    "psnr_scope": "original-resolution single view; not measured from the JPEG"
+  },
+  {
+    "asset": "index.html#cost",
+    "source": "output/ICLR-27-Submitted/0001_main_table/",
+    "storage_example": {
+      "scenes": 13,
+      "anchors_per_scene": 11,
+      "includes_full_anchor": true,
+      "full_ply_path_template": "{scene}/backbone/point_cloud/iteration_30000/point_cloud.ply",
+      "atlas_path_template": "{scene}/runtime/adapter.pt",
+      "mean_full_ply_bytes": 400616916.61538464,
+      "mean_extra_atlas_bytes": 85653116.61538461,
+      "overhead_percent_ratio_of_means": 21.38030449113974,
+      "unit": "decimal MB (1e6 bytes)",
+      "scope": "atlas only; Full PLY retained separately; the page presents a concise extra-storage example, not a bundle-size comparison"
+    }
+  },
+  {
+    "asset": "assets/insight/fixed-0p8.jpg",
+    "source": "output/History/legacy_current_results/garden_view12_intro_three_budgets/3_fixed_24k_ids_0p8pct.png",
+    "source_version": "historical geometric11, 20260915; same model as paper Figure 2",
+    "scene": "Garden",
+    "view": 12,
+    "image_name": "DSC08052.JPG",
+    "state_count": 24000,
+    "rendered_count": 24000,
+    "dimensions": [
+      649,
+      420
+    ],
+    "source_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": "JPEG quality 95, 4:4:4, progressive; half dimensions"
+  },
+  {
+    "asset": "assets/insight/fixed-6p4.jpg",
+    "source": "output/experiments/0011_web_insight_states/fixed-6p4.png",
+    "source_version": "historical geometric11, 20260915; same model as paper Figure 2",
+    "scene": "Garden",
+    "view": 12,
+    "image_name": "DSC08052.JPG",
+    "state_count": 192000,
+    "rendered_count": 24000,
+    "dimensions": [
+      649,
+      420
+    ],
+    "source_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": "JPEG quality 95, 4:4:4, progressive; half dimensions"
+  },
+  {
+    "asset": "assets/insight/fixed-12p8.jpg",
+    "source": "output/History/legacy_current_results/garden_view12_intro_three_budgets/3_fixed_24k_ids_12p8pct.png",
+    "source_version": "historical geometric11, 20260915; same model as paper Figure 2",
+    "scene": "Garden",
+    "view": 12,
+    "image_name": "DSC08052.JPG",
+    "state_count": 384000,
+    "rendered_count": 24000,
+    "dimensions": [
+      649,
+      420
+    ],
+    "source_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": "JPEG quality 95, 4:4:4, progressive; half dimensions"
+  },
+  {
+    "asset": "assets/insight/fixed-25p6.jpg",
+    "source": "output/experiments/0011_web_insight_states/fixed-25p6.png",
+    "source_version": "historical geometric11, 20260915; same model as paper Figure 2",
+    "scene": "Garden",
+    "view": 12,
+    "image_name": "DSC08052.JPG",
+    "state_count": 768000,
+    "rendered_count": 24000,
+    "dimensions": [
+      649,
+      420
+    ],
+    "source_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": "JPEG quality 95, 4:4:4, progressive; half dimensions"
+  },
+  {
+    "asset": "assets/insight/fixed-100.jpg",
+    "source": "output/History/legacy_current_results/garden_view12_intro_three_budgets/3_fixed_24k_ids_100pct.png",
+    "source_version": "historical geometric11, 20260915; same model as paper Figure 2",
+    "scene": "Garden",
+    "view": 12,
+    "image_name": "DSC08052.JPG",
+    "state_count": 3000000,
+    "rendered_count": 24000,
+    "dimensions": [
+      649,
+      420
+    ],
+    "source_dimensions": [
+      1297,
+      840
+    ],
+    "encoding": "JPEG quality 95, 4:4:4, progressive; half dimensions"
+  },
+  {
+    "asset": "assets/demo/garden.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/garden.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/garden.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 4606524
+  },
+  {
+    "asset": "assets/demo/bicycle.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/bicycle.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/bicycle.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 3647996
+  },
+  {
+    "asset": "assets/demo/stump.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/stump.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/stump.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 3905736
+  },
+  {
+    "asset": "assets/demo/flowers.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/flowers.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/flowers.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 3030989
+  },
+  {
+    "asset": "assets/demo/treehill.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/treehill.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/treehill.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 2232560
+  },
+  {
+    "asset": "assets/demo/room.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/room.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/room.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 3039795
+  },
+  {
+    "asset": "assets/demo/counter.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/counter.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/counter.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 3438274
+  },
+  {
+    "asset": "assets/demo/kitchen.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/kitchen.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/kitchen.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 4418245
+  },
+  {
+    "asset": "assets/demo/bonsai.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/bonsai.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/bonsai.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 3300277
+  },
+  {
+    "asset": "assets/demo/train.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/train.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/train.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 1566963
+  },
+  {
+    "asset": "assets/demo/truck.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/truck.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/truck.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 2034866
+  },
+  {
+    "asset": "assets/demo/playroom.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/playroom.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/playroom.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 1706203
+  },
+  {
+    "asset": "assets/demo/drjohnson.mp4",
+    "source": "output/experiments/0012_web_budget_sweep/web/drjohnson.mp4",
+    "manifest": "output/experiments/0012_web_budget_sweep/drjohnson.json",
+    "scope": "0.1% to 5%, logarithmic growth; 240 real rendered budgets, 9.5 seconds including endpoint holds; no audio or reverse playback",
+    "bytes": 1664995
+  },
+  {
+    "asset": "assets/results/table-own-full.svg",
+    "source": "output/ICLR-27-Submitted/tables/CLOD_MGS_Ours.xlsx",
+    "worksheet": "Summary",
+    "format": "vector glyph paths; actual STIXGeneral Regular / Droid Serif Bold, Noto Serif CJK SC fallback; original thousands unit; PSNR 2 decimals, SSIM/LPIPS 3 decimals; bold best quality per ratio",
+    "paper_source": "260926-ParetoGS-ICLR27投稿版本.pdf",
+    "paper_table": 1,
+    "offline_time_minutes": {
+      "CLOD-3DGS": 35,
+      "MGS": 74,
+      "ParetoGS": 10.3
+    },
+    "time_scope": "13-scene mean offline time as paper headers; ParetoGS includes Full and anchor training plus encoding/calibration/packaging (9.78 min training, 10.33 min total in Appendix Table 14). Workbook training-only header not used.",
+    "layout": "Vertical separators after each left budget column and between method groups; no separators inside each method; centered figure capped at 1040 CSS px, narrow screens scroll horizontally; values and best-quality highlighting unchanged."
+  },
+  {
+    "asset": "assets/results/table-shared-full.svg",
+    "source": "output/ICLR-27-Submitted/tables/FlexGSimp_NanoGSimp_Ours.xlsx",
+    "worksheet": "Summary",
+    "format": "vector glyph paths; actual STIXGeneral Regular / Droid Serif Bold, Noto Serif CJK SC fallback; original thousands unit; PSNR 2 decimals, SSIM/LPIPS 3 decimals; bold best quality per ratio",
+    "paper_source": "260926-ParetoGS-ICLR27投稿版本.pdf",
+    "paper_table": 2,
+    "offline_time_minutes": {
+      "FlexGS-imp": 81,
+      "ParetoGS": 10.3
+    },
+    "time_scope": "13-scene mean offline time as paper headers; ParetoGS includes Full and anchor training plus encoding/calibration/packaging (9.78 min training, 10.33 min total in Appendix Table 14). Workbook training-only header not used.",
+    "nanogs_conversion": {
+      "source_column": "Summary column I, Conversion (s)",
+      "ratios": [
+        "30%",
+        "10%",
+        "5%",
+        "1%",
+        "0.1%"
+      ],
+      "seconds": [
+        48,
+        54,
+        55,
+        56,
+        56
+      ],
+      "scope": "Offline conversion from shared Full to one target model, not resident online budget-switch latency"
+    },
+    "layout": "Vertical separators after each left budget column and between method groups; no separators inside each method; centered figure capped at 1040 CSS px, narrow screens scroll horizontally; values and best-quality highlighting unchanged."
+  },
+  {
+    "asset": "assets/results/bicycle-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/bicycle_test_view_00001_grid_5x5.pdf",
+    "scene": "bicycle",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/bicycle_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/flowers-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/flowers_test_view_00001_grid_5x5.pdf",
+    "scene": "flowers",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/flowers_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/garden-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/garden_test_view_00001_grid_5x5.pdf",
+    "scene": "garden",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/garden_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/stump-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/stump_test_view_00001_grid_5x5.pdf",
+    "scene": "stump",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/stump_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/treehill-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/treehill_test_view_00001_grid_5x5.pdf",
+    "scene": "treehill",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/treehill_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/room-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/room_test_view_00001_grid_5x5.pdf",
+    "scene": "room",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/room_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/counter-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/counter_test_view_00001_grid_5x5.pdf",
+    "scene": "counter",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/counter_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/kitchen-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/kitchen_test_view_00001_grid_5x5.pdf",
+    "scene": "kitchen",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/kitchen_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/bonsai-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/bonsai_test_view_00001_grid_5x5.pdf",
+    "scene": "bonsai",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/bonsai_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/train-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/train_test_view_00001_grid_5x5.pdf",
+    "scene": "train",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/train_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/truck-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/truck_test_view_00001_grid_5x5.pdf",
+    "scene": "truck",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/truck_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/playroom-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/playroom_test_view_00001_grid_5x5.pdf",
+    "scene": "playroom",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/playroom_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "assets/results/drjohnson-comparison.jpg",
+    "source": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/drjohnson_test_view_00001_grid_5x5.pdf",
+    "scene": "drjohnson",
+    "test_view": 1,
+    "encoding": "PDF raster export to JPEG, longest edge 3280, quality 95; no panel edits",
+    "provenance": "output/ICLR-27-Submitted/materials/full_13_scene_test_view_00001_grids/_provenance/drjohnson_test_view_00001_grid_5x5.json"
+  },
+  {
+    "asset": "index.html#results comparison descriptions",
+    "source": "260926-ParetoGS-ICLR27投稿版本.pdf, Sections 4.1–4.2 and Tables 1–2, 13–14",
+    "configuration_sources": [
+      "configs/baselines/clod_main_table_6points.json",
+      "configs/baselines/mgs_main_table_6points.json"
+    ],
+    "scope": "Official source-code protocols; this experiment uses MCMC variants for CLOD/MGS. First group uses each own Full; second group shares ImprovedGS Full. FlexGS adaptation samples 1%,5%,10%,15%; NanoGS builds each target offline."
+  },
+  {
+    "asset": "assets/curves/bicycle.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/bicycle_pareto_ssim_lpips_log.pdf",
+    "scene": "bicycle",
+    "test_views": 25,
+    "full_gaussians": 3000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/flowers.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/flowers_pareto_ssim_lpips_log.pdf",
+    "scene": "flowers",
+    "test_views": 22,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/stump.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/stump_pareto_ssim_lpips_log.pdf",
+    "scene": "stump",
+    "test_views": 16,
+    "full_gaussians": 3000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/treehill.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/treehill_pareto_ssim_lpips_log.pdf",
+    "scene": "treehill",
+    "test_views": 18,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/room.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/room_pareto_ssim_lpips_log.pdf",
+    "scene": "room",
+    "test_views": 39,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/counter.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/counter_pareto_ssim_lpips_log.pdf",
+    "scene": "counter",
+    "test_views": 30,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/kitchen.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/kitchen_pareto_ssim_lpips_log.pdf",
+    "scene": "kitchen",
+    "test_views": 35,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/bonsai.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/bonsai_pareto_ssim_lpips_log.pdf",
+    "scene": "bonsai",
+    "test_views": 37,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/train.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/train_pareto_ssim_lpips_log.pdf",
+    "scene": "train",
+    "test_views": 38,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/truck.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/truck_pareto_ssim_lpips_log.pdf",
+    "scene": "truck",
+    "test_views": 32,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/playroom.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/playroom_pareto_ssim_lpips_log.pdf",
+    "scene": "playroom",
+    "test_views": 29,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/drjohnson.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/drjohnson_pareto_ssim_lpips_log.pdf",
+    "scene": "drjohnson",
+    "test_views": 33,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/curves/garden.svg",
+    "source": "output/experiments/0003_garden_pareto_flexgs101/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/figures/Figure3_garden_pareto_ssim_lpips_log.pdf",
+    "scene": "garden",
+    "test_views": 24,
+    "full_gaussians": 3000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained."
+  },
+  {
+    "asset": "assets/en/method-overview.svg",
+    "language": "en",
+    "localized_from": "assets/method-overview.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/results/table-own-full.svg",
+    "source": "output/ICLR-27-Submitted/tables/CLOD_MGS_Ours.xlsx",
+    "worksheet": "Summary",
+    "format": "vector glyph paths; actual STIXGeneral Regular / Droid Serif Bold, Noto Serif CJK SC fallback; original thousands unit; PSNR 2 decimals, SSIM/LPIPS 3 decimals; bold best quality per ratio",
+    "paper_source": "260926-ParetoGS-ICLR27投稿版本.pdf",
+    "paper_table": 1,
+    "offline_time_minutes": {
+      "CLOD-3DGS": 35,
+      "MGS": 74,
+      "ParetoGS": 10.3
+    },
+    "time_scope": "13-scene mean offline time as paper headers; ParetoGS includes Full and anchor training plus encoding/calibration/packaging (9.78 min training, 10.33 min total in Appendix Table 14). Workbook training-only header not used.",
+    "layout": "Vertical separators after each left budget column and between method groups; no separators inside each method; centered figure capped at 1040 CSS px, narrow screens scroll horizontally; values and best-quality highlighting unchanged.",
+    "language": "en",
+    "localized_from": "assets/results/table-own-full.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/results/table-shared-full.svg",
+    "source": "output/ICLR-27-Submitted/tables/FlexGSimp_NanoGSimp_Ours.xlsx",
+    "worksheet": "Summary",
+    "format": "vector glyph paths; actual STIXGeneral Regular / Droid Serif Bold, Noto Serif CJK SC fallback; original thousands unit; PSNR 2 decimals, SSIM/LPIPS 3 decimals; bold best quality per ratio",
+    "paper_source": "260926-ParetoGS-ICLR27投稿版本.pdf",
+    "paper_table": 2,
+    "offline_time_minutes": {
+      "FlexGS-imp": 81,
+      "ParetoGS": 10.3
+    },
+    "time_scope": "13-scene mean offline time as paper headers; ParetoGS includes Full and anchor training plus encoding/calibration/packaging (9.78 min training, 10.33 min total in Appendix Table 14). Workbook training-only header not used.",
+    "nanogs_conversion": {
+      "source_column": "Summary column I, Conversion (s)",
+      "ratios": [
+        "30%",
+        "10%",
+        "5%",
+        "1%",
+        "0.1%"
+      ],
+      "seconds": [
+        48,
+        54,
+        55,
+        56,
+        56
+      ],
+      "scope": "Offline conversion from shared Full to one target model, not resident online budget-switch latency"
+    },
+    "layout": "Vertical separators after each left budget column and between method groups; no separators inside each method; centered figure capped at 1040 CSS px, narrow screens scroll horizontally; values and best-quality highlighting unchanged.",
+    "language": "en",
+    "localized_from": "assets/results/table-shared-full.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/bicycle.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/bicycle_pareto_ssim_lpips_log.pdf",
+    "scene": "bicycle",
+    "test_views": 25,
+    "full_gaussians": 3000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/bicycle.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/bonsai.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/bonsai_pareto_ssim_lpips_log.pdf",
+    "scene": "bonsai",
+    "test_views": 37,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/bonsai.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/counter.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/counter_pareto_ssim_lpips_log.pdf",
+    "scene": "counter",
+    "test_views": 30,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/counter.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/drjohnson.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/drjohnson_pareto_ssim_lpips_log.pdf",
+    "scene": "drjohnson",
+    "test_views": 33,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/drjohnson.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/flowers.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/flowers_pareto_ssim_lpips_log.pdf",
+    "scene": "flowers",
+    "test_views": 22,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/flowers.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/garden.svg",
+    "source": "output/experiments/0003_garden_pareto_flexgs101/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/figures/Figure3_garden_pareto_ssim_lpips_log.pdf",
+    "scene": "garden",
+    "test_views": 24,
+    "full_gaussians": 3000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/garden.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/kitchen.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/kitchen_pareto_ssim_lpips_log.pdf",
+    "scene": "kitchen",
+    "test_views": 35,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/kitchen.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/playroom.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/playroom_pareto_ssim_lpips_log.pdf",
+    "scene": "playroom",
+    "test_views": 29,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/playroom.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/room.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/room_pareto_ssim_lpips_log.pdf",
+    "scene": "room",
+    "test_views": 39,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/room.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/stump.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/stump_pareto_ssim_lpips_log.pdf",
+    "scene": "stump",
+    "test_views": 16,
+    "full_gaussians": 3000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/stump.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/train.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/train_pareto_ssim_lpips_log.pdf",
+    "scene": "train",
+    "test_views": 38,
+    "full_gaussians": 1000000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/train.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/treehill.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/treehill_pareto_ssim_lpips_log.pdf",
+    "scene": "treehill",
+    "test_views": 18,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/treehill.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "asset": "assets/en/curves/truck.svg",
+    "source": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/plot_points.csv",
+    "source_figure": "output/ICLR-27-Submitted/materials/pareto_ssim_lpips_log_no_flex_12scenes/truck_pareto_ssim_lpips_log.pdf",
+    "scene": "truck",
+    "test_views": 32,
+    "full_gaussians": 1500000,
+    "methods": [
+      "ParetoGS",
+      "Independent GNS"
+    ],
+    "input_points": {
+      "ParetoGS": 101,
+      "Independent GNS": 10
+    },
+    "visible_points": {
+      "anchors": 9,
+      "interpolated": 81,
+      "independent_gns": 9
+    },
+    "visible_budget_percent": [
+      0.1,
+      50
+    ],
+    "scope": "Per-scene test-view mean SSIM/LPIPS; actual Gaussian count / Full on a logarithmic axis; measured points with connecting lines, no smoothing/fitting. Garden FlexGS omitted for this web view only; original PDFs and experiment data unchanged.",
+    "format": "SVG glyph paths; STIXGeneral Regular and Noto Serif CJK SC Regular; original colors and marker meaning retained.",
+    "language": "en",
+    "localized_from": "assets/curves/truck.svg",
+    "localization": "English labels with identical source data and diagram geometry; actual STIXGeneral Regular and Droid Serif Bold glyph paths."
+  },
+  {
+    "section": "method-tradeoffs",
+    "sources": [
+      "https://flexgs.github.io/",
+      "https://arxiv.org/abs/2603.16103",
+      "/3dgs_cuda_workspace/0_Reproduction_Space/NanoGS/README.md"
+    ],
+    "scope": "FlexGS learns budget-conditioned selection and geometric transforms; NanoGS simplifies through training-free local merging and parameter recomputation. Reported time trade-offs refer to our experiments; NanoGS conversion to an unprepared target is distinct from switching among cached models. Quality claims refer only to five measured budgets and 13-scene mean metrics in shared-Full Table 2."
+  }
+]
